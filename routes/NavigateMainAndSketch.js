@@ -19,5 +19,3 @@ export const AppNavigator = () => (
     <MainAndSketchNavigator />
   </NavigationContainer>
 );
-
-// const styles = StyleSheet.create({});
