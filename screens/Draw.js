@@ -1,13 +1,6 @@
-import { Button, Fab, Icon } from "native-base";
+import { Button, setFabActiveColor } from "native-base";
 import React, { useState, useRef } from "react";
-import {
-  Dimensions,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TouchableOpacity,
-  View,
-} from "react-native";
+import { Dimensions, StyleSheet, Text, View } from "react-native";
 import RNDrawOnScreen from "react-native-draw-on-screen";
 import { Ionicons, Fontisto, MaterialIcons } from "@expo/vector-icons";
 
