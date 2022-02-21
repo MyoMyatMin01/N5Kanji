@@ -1,10 +1,8 @@
-import { Button, setFabActiveColor } from "native-base";
+import { Button } from "native-base";
 import React, { useState, useRef } from "react";
-import { Dimensions, StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View } from "react-native";
 import RNDrawOnScreen from "react-native-draw-on-screen";
 import { Ionicons, Fontisto, MaterialIcons } from "@expo/vector-icons";
-
-let { width, height } = Dimensions.get("window");
 
 function Draw({ navigation }) {
   let [blackBorderColor, setBlackBorderColor] = useState("#ffe600");
