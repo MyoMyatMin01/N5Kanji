@@ -13,7 +13,7 @@ import {
 } from "native-base";
 import React from "react";
 import { Image, StyleSheet, Text, Dimensions } from "react-native";
-import Svg, { Circle, Path } from "react-native-svg";
+import Svg, { Circle } from "react-native-svg";
 import { MaterialIcons } from "@expo/vector-icons";
 
 import {
